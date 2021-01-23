@@ -1,0 +1,20 @@
+{
+  "name": "practice-2021",
+  "version": "1.0.0",
+  "description": "Complete Node.js Guide",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TREX1883/Node-Practice-2021.git"
+  },
+  "author": "Daniel Purrington",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TREX1883/Node-Practice-2021/issues"
+  },
+  "homepage": "https://github.com/TREX1883/Node-Practice-2021#readme"
+}
