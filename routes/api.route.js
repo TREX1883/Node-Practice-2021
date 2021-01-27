@@ -1,9 +1,7 @@
 import { Router } from 'express'
 
 export const apiRouter = Router()
-console.log("test")
-apiRouter.get('/api', (req, res) => {
-    console.log("test2")
+apiRouter.get('/', (req, res) => {
     res.json({
         first_name: 'Daniel',
         last_name: 'Purrington',
@@ -15,3 +13,4 @@ apiRouter.get('/api', (req, res) => {
         ]
     })
 })
+
