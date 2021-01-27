@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "Complete Node.js Guide",
   "main": "app.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/TREX1883/Node-Practice-2021/issues"
   },
-  "homepage": "https://github.com/TREX1883/Node-Practice-2021#readme"
+  "homepage": "https://github.com/TREX1883/Node-Practice-2021#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
